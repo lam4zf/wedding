@@ -5808,7 +5808,7 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #ebccd1;
 }
 .parallax { 
-    background: url(http://www.monaco-dc.com/images/1700-960/dc-hotels-exterior-crop-c7984c3d.jpg) no-repeat;
+    background: url("hotel2.jpg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
