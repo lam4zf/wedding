@@ -1090,7 +1090,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fffef9;
+  background-color: #ffff;
 }
 input,
 button,
@@ -5812,7 +5812,7 @@ button.list-group-item-danger.active:focus {
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-    height: 500px;
+    height: 610px;
     padding: 50px 0px;
     position: relative;
     padding-top: 150px;
