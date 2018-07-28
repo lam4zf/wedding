@@ -11,6 +11,7 @@
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/extra.css" rel="stylesheet">
   <link rel="stylesheet" href="css/justifiedGallery.css" />
+  <link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -304,6 +305,8 @@
       <script src="./js/jquery.sticky.js"></script>
       <script src="./js/jquery.nav.js"></script>
 
+      <script src="https://cdn.jsdelivr.net/npm/lg-thumbnail@1.1.0/dist/lg-thumbnail.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.11/dist/js/lightgallery.min.js"></script>
       <script src="js/jquery.justifiedGallery.js"></script>
 
       <script type="text/javascript" src="./js/TimeCircles.js"></script>
@@ -333,7 +336,9 @@
           }
         });
           $("#aniimated-thumbnials").justifiedGallery();
-
+           $(document).ready(function() {
+          $("#aniimated-thumbnials").lightGallery(); 
+          });
           $("#DateCountdown").TimeCircles({
             "animation": "smooth",
             "bg_width": 0.1,
