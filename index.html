@@ -10,7 +10,7 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/extra.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="css/justifiedGallery.css" />
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -102,9 +102,70 @@
           <div class="row featurette">
             <div class="col-md-12">
               <h2 class="featurette-heading text-center">Photo Album</h2>
-              <p class="lead">Spicy jalapeno bacon ipsum dolor amet bresaola ut dolor irure boudin spare ribs laboris kevin ground round ribeye andouille. Pork chop tongue pork ribeye consectetur flank exercitation. Ball tip venison in hamburger. Turkey leberkas swine, beef in voluptate aute shoulder excepteur laboris short ribs cupim. Sunt shank sed sausage elit eu salami rump. Consectetur corned beef tempor, ribeye anim in prosciutto elit swine ut aute. Do nostrud excepteur beef ribs.</p>
-              <p class="lead">Aliqua boudin bresaola esse sed sunt. Pork belly filet mignon leberkas mollit tongue chuck. Ball tip duis picanha qui non sunt hamburger incididunt ut rump. Tri-tip pork belly ullamco shoulder irure ribeye nulla. Ball tip ullamco leberkas strip steak anim tongue pig. Ad short ribs quis pancetta ut filet mignon t-bone fatback id tempor est.</p>
-              <p class="lead">Short loin laborum quis, salami pork chop shankle turducken ea esse. Swine dolor et sint consectetur, qui tri-tip pariatur. Nostrud dolore short ribs nulla, alcatra filet mignon buffalo prosciutto lorem. Capicola est salami, strip steak shoulder venison ea exercitation tail fatback pork chop sed elit turkey pork. Tenderloin meatloaf shankle sirloin ham hock porchetta pariatur sausage et short ribs chuck sed duis capicola dolore.</p>
+
+              <div id="aniimated-thumbnials">
+                <a href="img/IMG_8209_Facetune_01-05-2018-17-20-19.jpg">
+                  <img src="img/IMG_8209_Facetune_01-05-2018-17-20-19.jpg" />
+                </a>
+                <a href="img/IMG_7298.jpg">
+                  <img src="img/IMG_7298.jpg" />
+                </a>
+                <a href="img/IMG_6755.jpg">
+                  <img src="img/IMG_6755.jpg" />
+                </a>
+                <a href="img/IMG_6408.jpg">
+                  <img src="img/IMG_6408.jpg" />
+                </a>
+                <a href="img/IMG_4571.jpg">
+                  <img src="img/IMG_4571.jpg" />
+                </a>
+                <a href="img/IMG_4559.jpg">
+                  <img src="img/IMG_4559.jpg" />
+                </a>
+                <a href="img/IMG_4399.jpg">
+                  <img src="img/IMG_4399.jpg" />
+                </a>  
+                <a href="img/IMG_3887.jpg">
+                  <img src="img/IMG_3887.jpg" />
+                </a>
+                <a href="img/IMG_3819.jpg">
+                  <img src="img/IMG_3819.jpg" />
+                </a>
+                <a href="img/IMG_3550.jpg">
+                  <img src="img/IMG_3550.jpg" />
+                </a>
+                <a href="img/IMG_2564.jpg">
+                  <img src="img/IMG_2564.jpg" />
+                </a>
+                <a href="img/IMG_1851.jpg">
+                  <img src="img/IMG_1851.jpg" />
+                </a>
+                <a href="img/IMG_1234.jpg">
+                  <img src="img/IMG_1234.jpg" />
+                </a>
+                <a href="img/IMG_1125.jpg">
+                  <img src="img/IMG_1125.jpg" />
+                </a>
+                <a href="img/IMG_0906.jpg">
+                  <img src="img/IMG_0906.jpg" />
+                </a>
+                <a href="img/IMG_0504.jpg">
+                  <img src="img/IMG_0504.jpg" />
+                </a>
+                <a href="img/IMG_0334.jpg">
+                  <img src="img/IMG_0334.jpg" />
+                </a>
+                <a href="img/30969488_Unknown.jpg">
+                  <img src="img/30969488_Unknown.jpg" />
+                </a>
+                <a href="img/30178624_Unknown.jpg">
+                  <img src="img/30178624_Unknown.jpg" />
+                </a>
+                <a href="img/30178448_Unknown.jpg">
+                  <img src="img/30178448_Unknown.jpg" />
+                </a>
+              </div>
+
             </div>
 
           </div>
@@ -242,6 +303,9 @@
       <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
       <script src="./js/jquery.sticky.js"></script>
       <script src="./js/jquery.nav.js"></script>
+
+      <script src="js/jquery.justifiedGallery.js"></script>
+
       <script type="text/javascript" src="./js/TimeCircles.js"></script>
       <link href="./css/TimeCircles.css" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -268,6 +332,7 @@
             //I get fired when you enter a section and I pass the list item of the section
           }
         });
+          $("#aniimated-thumbnials").justifiedGallery();
 
           $("#DateCountdown").TimeCircles({
             "animation": "smooth",
