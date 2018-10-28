@@ -5808,7 +5808,7 @@ button.list-group-item-danger.active:focus {
   border-bottom-color: #ebccd1;
 }
 .parallax { 
-    background: url("hotel2.jpg") no-repeat;
+    background: url("kelsea-louis-sneak-peeks-3.jpg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -5819,10 +5819,10 @@ button.list-group-item-danger.active:focus {
     /*filter: blur(5px);*/
 }
 .parallax-content{
-  color: white;
+  color: #05668D;
   position: absolute;
   text-align: center;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
