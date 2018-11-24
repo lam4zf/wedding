@@ -8,6 +8,48 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,700i|Oswald:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@media(max-width: 768px){
+  .parallax { 
+      background: url("smaller.jpg") no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      text-align: center;
+      min-height: 600px;
+      padding: 50px 0px;
+      position: relative;
+      padding-top: 150px;
+      /*filter: blur(5px);*/
+  }
+  .parallax-content{
+    color: #05668D;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media(min-width: 768px){
+  .parallax { 
+      background: url("kelsea-louis-sneak-peeks-3.jpg") no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      text-align: center;
+      min-height: 600px;
+      padding: 50px 0px;
+      position: relative;
+      padding-top: 150px;
+      /*filter: blur(5px);*/
+  }
+  .parallax-content{
+    color: #05668D;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -5806,25 +5848,6 @@ button.list-group-item-danger.active:focus {
 }
 .panel-danger > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ebccd1;
-}
-.parallax { 
-    background: url("kelsea-louis-sneak-peeks-3.jpg") no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    height: 600px;
-    padding: 50px 0px;
-    position: relative;
-    padding-top: 150px;
-    /*filter: blur(5px);*/
-}
-.parallax-content{
-  color: #05668D;
-  position: absolute;
-  text-align: center;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .wedding-title{
   font-family: "Great Vibes", cursive;
