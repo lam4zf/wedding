@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,700i|Oswald:400,700');
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @media(max-width: 768px){
@@ -1128,8 +1128,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Josefin Slab", Helvetica, Arial, serif;
-  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
   line-height: 1.42857143;
   color: #333;
   background-color: #ffff;
@@ -1341,11 +1341,7 @@ p {
   font-weight: 300;
   line-height: 1.4;
 }
-@media (min-width: 768px) {
-  .lead {
-    font-size: 21px;
-  }
-}
+
 small,
 .small {
   font-size: 85%;
